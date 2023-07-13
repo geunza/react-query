@@ -1,5 +1,6 @@
-#react-query 한번 써보기
-##230714
+# react-query 한번 써보기
+
+## 230714
 
 - 사용 라이브러리 : axios, queryString, react-query, react-router-dom
 - 데이터 패칭을 별도로 하고 그걸 또 훅 안에서 사용해야 한다니 이게 편한가.. 싶었다.
