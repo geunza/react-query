@@ -81,7 +81,6 @@ const List: React.FC<{}> = () => {
       console.log("err", err);
     },
   });
-
   const submitQuery = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     if (queryRef.current) {
@@ -124,7 +123,6 @@ const List: React.FC<{}> = () => {
             const currentQueryObj = queryString.parse(location.search);
             const newQueryObj = { ...currentQueryObj, page: idx };
             const toSearch = queryString.stringify(newQueryObj);
-
             return (
               <StyledLink
                 to={{
